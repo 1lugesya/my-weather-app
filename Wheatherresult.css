@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.result {
+  display: flex;
+  min-height: 10vh;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(88, 123, 211, 0.2);
+}
+
+ul {
+  width: 50%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+h2 {
+  margin-left: 20px;
+}
